@@ -1,0 +1,23 @@
+//global styles and changing bulma variables
+
+//Import  google Font
+@import url('https://fonts.google.com/specimen/Shadows+Into+Light');
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700|Lato:400,800,900');
+@import url('https://fonts.google.com/specimen/Caveat');
+
+$family-sans-serif: "Nunito", sans-serif,"Caveat","specimen";
+
+// update some of Bulma's components variables
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+/* GLOBAL STYLES*/
+html.body{
+    height:100%;
+}
+html{
+    background-image: url('./assets/background2.jpg');
+    background-size: cover;
+    overflow-y: auto !important;
+}
